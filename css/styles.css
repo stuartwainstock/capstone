@@ -1,9 +1,17 @@
-h1, h3{
+h1, h2, h3{
 	font-family: 'Prompt', sans-serif;
 }
 
-p, h2{
+p {
 	font-family: 'Quattrocento', serif;	
 }
-
+.sectiontitle{
+	text-align: center;
+}
+.callout.primary{
+	background-color: #fee77b;
+}
+.subheader{
+	color: #000;
+}
 
