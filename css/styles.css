@@ -1,9 +1,12 @@
 h1, h2, h3{
 	font-family: 'Prompt', sans-serif;
 }
-
+h3{
+	font-size: 3rem;
+}
 p {
 	font-family: 'Quattrocento', serif;	
+	font-size: 2rem;
 }
 .sectiontitle{
 	text-align: center;
@@ -14,4 +17,30 @@ p {
 .subheader{
 	color: #000;
 }
+.thumbnail {
+	border: none;
+}
+.blog-post p {
+	width: 90%;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+
+
+.sticky-container {
+  z-index: 5;
+}
+
+
 
