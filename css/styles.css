@@ -1,10 +1,10 @@
-h1, h2, h3{
+h1, h2, h3 , .button{
 	font-family: 'Prompt', sans-serif;
 }
 h3{
 	font-size: 3rem;
 }
-p {
+p{
 	font-family: 'Quattrocento', serif;	
 	font-size: 2rem;
 }
@@ -23,7 +23,22 @@ p {
 .blog-post p {
 	width: 90%;
 }
-
+.button{
+	background: #07d2d6;
+	color: #fee77b;
+	text-transform: uppercase;
+}
+.button:hover {
+    background: #fee77b;
+    color: #07d2d6;
+    text-transform: uppercase;
+ }
+ .top-bar, .top-bar ul{
+ 	background-color: #ff5371;
+ }
+ .top-bar li a{
+ 	color: #fff;
+ }
 @media screen and (max-width: 39.9375em) {
   .no-js .top-bar {
     display: none;
@@ -35,9 +50,6 @@ p {
     display: none;
   }
 }
-
-
-
 .sticky-container {
   z-index: 5;
 }
