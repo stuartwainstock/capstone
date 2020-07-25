@@ -1,6 +1,10 @@
 h1, h2, h3 , .button{
 	font-family: 'Prompt', sans-serif;
 }
+h1{
+	font-size: 4rem;
+}
+
 h3{
 	font-size: 3rem;
 }
@@ -16,6 +20,7 @@ p{
 }
 .subheader{
 	color: #000;
+	font-size: 1.5rem;
 }
 .thumbnail {
 	border: none;
@@ -23,10 +28,18 @@ p{
 .blog-post p {
 	width: 90%;
 }
+.refs{
+	font-size: 1.5rem;
+}
+.endnotes{
+	text-align: left;
+	list-style-type: none;
+	font-size: .75rem;
+}
 .button{
 	background: #07d2d6;
 	color: #fee77b;
-	text-transform: uppercase;
+	
 }
 .button:hover {
     background: #fee77b;
