@@ -66,6 +66,15 @@ p{
 .sticky-container {
   z-index: 5;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #FF5471;
+}
+
+::selection {
+  color: white;
+  background: #FF5471;
+}
 
 
 
